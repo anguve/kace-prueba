@@ -1,0 +1,49 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Anytown, USA",
+      "balance": 0
+    },
+    {
+      "id": "2",
+      "name": "Jane Doe",
+      "email": "",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Anytown, USA",
+      "balance": 0
+    },
+    {
+      "id": "3",
+      "name": "Herrera prueba 2",
+      "email": "david.herrera@konecta-group.com",
+      "phone": "123-456-7890",
+      "address": "456 Elm St, Othertown, USA",
+      "balance": "123",
+      "values": {
+        "name": "Cristian David Herrera",
+        "email": "david.herrera@konecta-group.com",
+        "balance": "123"
+      }
+    },
+    {
+      "id": "121321",
+      "name": "Cristian David Herrera",
+      "email": "prueba@correo.com",
+      "phone": "asdads",
+      "address": "pruebas dirrecion",
+      "balance": "123"
+    },
+    {
+      "id": "1213213",
+      "name": "prueba",
+      "email": "prueba@correo.com",
+      "phone": "3015360520",
+      "address": "pruebas dirrecion",
+      "balance": "123"
+    }
+  ]
+}
