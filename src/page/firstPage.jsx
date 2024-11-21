@@ -47,7 +47,7 @@ export default function FirstPage() {
       <h2 className="text-2xl font-bold text-center mb-6">Registro</h2>
       <form onSubmit={formik.handleSubmit}>
         <div className="mb-4">
-          <label htmlFor="" className="black text-gray-700 ">
+          <label htmlFor="campo1" className="black text-gray-700 ">
             campo 1
           </label>
           <input
@@ -62,7 +62,7 @@ export default function FirstPage() {
           ) : null}
         </div>
         <div className="mb-4">
-          <label htmlFor="" className="black text-gray-700 ">
+          <label htmlFor="campo2" className="black text-gray-700 ">
             campo 2
           </label>
           <input
@@ -71,12 +71,13 @@ export default function FirstPage() {
             type="text"
             {...formik.getFieldProps('campo2')}
           />
+
           {formik.errors.campo2 && formik.touched.campo2 ? (
             <div className="text-red-500">{formik.errors.campo2}</div>
           ) : null}
         </div>
         <div className="mb-4">
-          <label htmlFor="" className="black text-gray-700 ">
+          <label htmlFor="campo3" className="black text-gray-700 ">
             campo 3
           </label>
           <input
