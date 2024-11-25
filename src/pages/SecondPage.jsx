@@ -1,7 +1,7 @@
 import TableComponent from "../components/table/TableComponent";
 import { useClients } from "../hooks/clients/useClients";
 import ModalComponent from '../components/modal/ModalComponent';
-import { EditClients } from "../components/EditClients";
+import { EditClients } from "../components/editClient/EditClients";
 
 
 export default function SecondPage() {

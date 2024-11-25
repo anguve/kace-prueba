@@ -1,13 +1,13 @@
 import { useFormik } from 'formik';
-import { validates } from '../utils/validation';
+import { validates } from '../../utils/validation';
 import Joi from 'joi';
-import { InputComponent } from './InputComponents';
-import { styles2 } from '../pages/styles';
+import { InputComponent } from '../InputComponents';
+import { styles2 } from '../../pages/styles';
 import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 
 export const EditClients = ({
-    refer,
+    refer = null,
     row,
     editClients
 }) => {
